@@ -11,17 +11,17 @@
     }
   },
   "logo": {
-    "light": "",
-    "dark": ""
+    "light": "/assets/logos/nothing.jpg",
+    "dark": "/assets/logos/nothing.jpg"
   },
   "favicon": "",
   "colors": {
-    "primary": "#6F5AFF",
-    "light": "#6F5AFF",
-    "dark": "#6F5AFF",
+    "primary": "#07A85D",
+    "light": "#07A85D",
+    "dark": "#07A85D",
     "anchors": {
-      "from": "#6F5AFF",
-      "to": "#6F5AFF"
+      "from": "#07A85D",
+      "to": "#07A85D"
     }
   },
   "topbarLinks": [
