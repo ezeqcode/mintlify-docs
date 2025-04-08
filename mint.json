@@ -10,10 +10,6 @@
       "mode": "show"
     }
   },
-  "logo": {
-    "light": "/assets/logos/nothing.jpg",
-    "dark": "/assets/logos/nothing.jpg"
-  },
   "favicon": "",
   "colors": {
     "primary": "#07A85D",
