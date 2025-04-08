@@ -1,9 +1,9 @@
 ---
 title: "Gerar Cliente Teste"
 sidebarTitle: "Gerar Cliente Teste"
-api: "POST https://api.revenda.nexus/lines/test"
+api: "POST https://mcapi.knewcms.com:2087/lines/test"
 authMethod: "authorization"
-description: "Este endpoint permite gerar um cliente de teste na plataforma Nexus."
+description: "Este endpoint permite gerar um cliente de teste na plataforma Warez."
 ---
 
 ## Como utilizar este endpoint?
@@ -33,7 +33,7 @@ Esse endpoint cria um **cliente teste** com credenciais temporárias para uso da
 ### Exemplo de Requisição
 
 ```json
-POST https://api.revenda.nexus/lines/test
+POST https://mcapi.knewcms.com:2087/lines/test
 Headers:
 {
   "Authorization": "Bearer seu_token_aqui",
@@ -42,6 +42,10 @@ Headers:
 Payload:
 {
   "notes": "Cliente teste para avaliação",
+  "krator_package": "1",
+  "package_p2p": "647fc3ce3537090f240bc36b",
+  "package_iptv": 30,
+  "testDuration": 1
 }
 ```
 
@@ -123,10 +127,8 @@ Conteúdo da resposta.
   "updatedAt": "2025-01-16T13:00:00.000Z",
   "whatsapp": null,
   "telegram": null,
-  "idNexus": null,
   "migrationUrl": null,
   "trash": 0,
-  "error_nexus": 0,
   "updated": 0
 }
 ```

@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentação Nexus",
+  "name": "Documentação Warez",
   "api": {
     "auth": {
       "method": "key",
@@ -11,10 +11,10 @@
     }
   },
   "logo": {
-    "light": "/assets/logos/logo-preto.png",
-    "dark": "/assets/logos/logo-branco.png"
+    "light": "",
+    "dark": ""
   },
-  "favicon": "/assets/favicon.svg",
+  "favicon": "",
   "colors": {
     "primary": "#6F5AFF",
     "light": "#6F5AFF",
@@ -62,7 +62,6 @@
       "pages": [
         "api-reference/endpoint/customers/generate-test",
         "api-reference/endpoint/customers/active-test",
-        "api-reference/endpoint/customers/edit-client",
         "api-reference/endpoint/customers/delete-client"
       ]
     },

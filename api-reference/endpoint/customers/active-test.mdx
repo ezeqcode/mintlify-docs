@@ -1,9 +1,9 @@
 ---
 title: "Ativar Cliente"
 sidebarTitle: "Ativar Cliente"
-api: "PATCH https://api.revenda.nexus/lines/active/{id}"
+api: "PATCH https://mcapi.knewcms.com:2087/lines/active/{id}"
 authMethod: "authorization"
-description: "Este endpoint permite ativar um cliente de teste, tornando-o um usuário oficial na plataforma Nexus."
+description: "Este endpoint permite ativar um cliente de teste, tornando-o um usuário oficial na plataforma Warez."
 ---
 
 ## Como utilizar este endpoint?
@@ -62,7 +62,7 @@ Esse endpoint converte um cliente de teste em um cliente ativo, definindo o per�
 ### Exemplo de Requisição
 
 ```json
-PATCH https://api.revenda.nexus/lines/active/505
+PATCH https://mcapi.knewcms.com:2087/lines/active/505
 Headers:
 {
   "Authorization": "Bearer seu_token_aqui",
@@ -70,8 +70,6 @@ Headers:
 }
 Payload:
 {
-  "username": "123456",
-  "password": "123456",
   "credits": 1,
   "whatsapp": "(12) 3 1231-2312",
   "country": "Brasil",
@@ -152,8 +150,6 @@ Conteúdo da resposta.
   "telegram": null,
   "trash": 0,
   "country": "Brasil",
-  "error_nexus": 0,
-  "idNexus": 8448,
   "updated": 0,
   "migrationUrl": null,
   "lastTrust": null,
